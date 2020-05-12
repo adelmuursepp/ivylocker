@@ -1,8 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Services from './components/Services';
-import Features from './components/Features';
+import ProductsComponentIntro from './components/ProductsComponentIntro';
+import ServicesComponentIntro from './components/ServicesComponentIntro';
+import AboutIntro from './components/AboutIntro';
 import Descriptions from './components/Descriptions';
+import SolutionsIntro from './components/SolutionsIntro';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
 import Process from './components/Process';
@@ -16,6 +18,7 @@ import FooterLinks from './components/FooterLinks';
 import Switcher from './components/Switcher';
 import { Link } from 'react-router-dom';
 import Aux from './hoc/Aux_';
+import About from './About';
 
 class HomeThree extends React.Component {
   render() {
@@ -33,8 +36,8 @@ class HomeThree extends React.Component {
                                 <div className="row">
                                     <div className="col-lg-8 offset-lg-2 text-white text-center">
                                         <h1 className="home-title">There is one thing we all have in common</h1>
-                                        <p className="padding-t-15 home-desc">Executing your wishes after death by electronically notifying those you elect and identify within your Ivylocker® account.</p>
-                                        <p className="play-shadow margin-t-30 margin-l-r-auto"> <Link to="http://vimeo.com/99025203" className="play-btn video-play-icon"><i className="mdi mdi-play text-center"></i></Link></p>  
+                                        <h1 className="home-title">Our passion for those who matter the most</h1>
+                                        <p className="play-shadow margin-t-30 margin-l-r-auto"> <Link to="https://www.youtube.com/watch?v=cq0Z_-cOjww" className="play-btn video-play-icon"><i className="mdi mdi-play text-center"></i></Link></p>  
                                     </div>
                                 </div>
                             </div>
@@ -42,32 +45,39 @@ class HomeThree extends React.Component {
                     </div>
                </section>
 
-                {/* Services Component*/}
-                <Services />
-
                 {/* Features Component*/}
-                <Features />
+                <AboutIntro />
+
+                {/* Products Component*/}
+                <ProductsComponentIntro />
+
+                {/* Services Component*/}
+                <ServicesComponentIntro />
+
+                {/* Solutions Component*/}
+                <SolutionsIntro />
                 
+
                 {/* Descriptions Component*/}
-                <Descriptions />
+                {/* <Descriptions /> */}
 
                 {/* Pricing Component*/}
-                <Pricing />
+                {/* <Pricing /> */}
 
                 {/* Team Component*/}
-                <Team />
+                {/* <Team /> */}
 
                 {/* Process Component*/}
                 <Process />
 
                 {/* Testi Component*/}
-                <Testi />
+                {/* <Testi /> */}
 
                 {/* Started Component*/}
-                <Started />
+                {/* <Started /> */}
 
                 {/* Blog Component*/}
-                <Blog />
+                {/* <Blog /> */}
 
                 {/* Contact Component*/}
                 <Contact />
@@ -79,10 +89,10 @@ class HomeThree extends React.Component {
                 <Footer />
 
                 {/* FooterLinks Component*/}
-                <FooterLinks />
+                {/* <FooterLinks /> */}
 
                 {/* Switcher Component*/}
-               <Switcher /> 
+               {/* <Switcher />  */}
         </Aux>
   	);
   }

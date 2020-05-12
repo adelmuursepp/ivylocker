@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-class Navbar extends React.Component {
+class NavbarNoTransition extends React.Component {
   render() {
   	return (
-        <nav className="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+        <nav className="navbar navbar-expand-lg fixed-top navbar-notransition sticky sticky-dark">
             <div className="container">
                 <a className="navbar-brand logo text-uppercase" href="/">
                     IvyNet
@@ -47,4 +47,4 @@ class Navbar extends React.Component {
   }
 }
 
-export default Navbar;
+export default NavbarNoTransition;

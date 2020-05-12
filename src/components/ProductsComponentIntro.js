@@ -1,41 +1,49 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-class Services extends React.Component {
+class ProductsComponentIntro extends React.Component {
   render() {
   	return (
-        <section className="section pt-5" id="services">
+        <section className="section pt-5" id="products">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2">
-                        <h1 className="section-title text-center">Our Products</h1>
+                        <h1 className="section-title text-center">Products</h1>
                         <div className="section-title-border margin-t-20"></div>
-                        <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients.</p>
+                        {/* <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients.</p> */}
                     </div>
                 </div>
                 <div className="row margin-t-30">
-                    <div className="col-lg-4 margin-t-20">
+                    <div className="col-lg-3 margin-t-20">
                         <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-diamond text-custom"></i>
-                            <h4 className="padding-t-15">IvyLocker</h4>
+                            <a href="/products"><i className="pe-7s-box1 text-custom"></i></a>
+                            <a href="/products"><h4 className="padding-t-15">IvyLocker®</h4></a>
                             <p className="padding-t-15 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content. Moltin gives you the platform.</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 margin-t-20">
+                    <div className="col-lg-3 margin-t-20">
                         <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-display2 text-custom"></i>
+                            <i className="pe-7s-portfolio text-custom"></i>
                             <h4 className="padding-t-15">IvyPartner</h4>
                             <p className="padding-t-15 text-muted">info</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 margin-t-20">
+                    <div className="col-lg-3 margin-t-20">
                         <div className="services-box text-center hover-effect">
-                            <i className="pe-7s-piggy text-custom"></i>
-                            <h4 className="padding-t-15">IvyStone</h4>
+                            <i className="pe-7s-file text-custom"></i>
+                            <h4 className="padding-t-15">IvyProtect</h4>
+                            <p className="padding-t-15 text-muted">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean necessary regelialia.</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 margin-t-20">
+                        <div className="services-box text-center hover-effect">
+                            <i className="pe-7s-pen text-custom"></i>
+                            <h4 className="padding-t-15">IvyWish</h4>
                             <p className="padding-t-15 text-muted">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean necessary regelialia.</p>
                         </div>
                     </div>
                 </div>
-                <div className="row margin-t-30">
+                {/* <div className="row margin-t-30">
                     <div className="col-lg-4 margin-t-20">
                         <div className="services-box text-center hover-effect">
                             <i className="pe-7s-science text-custom"></i>
@@ -57,10 +65,10 @@ class Services extends React.Component {
                             <p className="padding-t-15 text-muted">Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia.</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
   	);
   }
 }
-export default Services;
+export default ProductsComponentIntro;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Services from './components/Services';
+// import Services from './components/ServicesComponent';
 import Features from './components/Features';
 import Descriptions from './components/Descriptions';
 import Pricing from './components/Pricing';
@@ -47,7 +47,7 @@ class HomeSix extends React.Component {
                 </section>
 
                 {/* Services Component*/}
-                <Services />
+                {/* <Services /> */}
 
                 {/* Features Component*/}
                 <Features />

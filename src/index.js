@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import HomeOne from './HomeOne';
-import HomeTwo from './HomeTwo';
+import About from './About';
+import Products from './Products';
+import Services from './Services';
+import Solutions from './Solutions';
+import ContactUs from './ContactUs';
 import HomeThree from './HomeThree';
 import HomeFour from './HomeFour';
 import HomeFive from './HomeFive';
@@ -21,15 +25,12 @@ class Root extends React.Component {
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
 			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeThree}/>
-			  <Route path={`${process.env.PUBLIC_URL}/home-one`} component={HomeOne}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-two`} component={HomeTwo}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-three`} component={HomeThree}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-four`} component={HomeFour}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-five`} component={HomeFive}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-six`} component={HomeSix}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-seven`} component={HomeSeven}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-eight`} component={HomeEight}/> 
-			  <Route path={`${process.env.PUBLIC_URL}/home-nine`} component={HomeNine}/>  
+			  <Route path={`${process.env.PUBLIC_URL}/ivylocker`} component={HomeOne}/> 
+			  <Route path={`${process.env.PUBLIC_URL}/about`} component={About}/> 
+			  <Route path={`${process.env.PUBLIC_URL}/products`} component={Products}/> 
+			  <Route path={`${process.env.PUBLIC_URL}/services`} component={Services}/> 
+			  <Route path={`${process.env.PUBLIC_URL}/solutions`} component={Solutions}/> 
+			  <Route path={`${process.env.PUBLIC_URL}/contact`} component={ContactUs}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/login`} component={Login}/>    
 			  <Route path={`${process.env.PUBLIC_URL}/password-forget`} component={PasswordForget}/>  
 			  <Route path={`${process.env.PUBLIC_URL}/sign-up`} component={SignUp}/>  

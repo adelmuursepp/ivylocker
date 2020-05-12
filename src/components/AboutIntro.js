@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class Features extends React.Component {
+class AboutIntro extends React.Component {
   render() {
   	return (
         <section className="section bg-light" id="features">
@@ -12,10 +12,14 @@ class Features extends React.Component {
                         <h3>Who we are</h3>
                         <p className=" web-desc">IvyNet’s  vision became the foundation of an approved patent which would richly benefit people from all walks of life, and all age groups in making connections for families during one of life’s most challenging events – the passing of a loved one.</p>
                         <p className=" web-desc">IvyNet provides a suite of services.  Our services provide security and peace of mind for individuals and business alike.  Each service offered resides in a secure encrypted environment with backup copies of data maintained in an off-site location.</p>
-                        <p className=" web-desc">Services range from Locker storage for storing data for individuals and families to safe guarding the identity of the deceased, thwarting identity theft. IvyNet facilitates income protection for families while lowering losses for business.</p>
-                        <p className=" web-desc">IvyNet’s approach allows the family to grieve worry-free, improves cash flow for Funeral Directors, saves time for handling and processing the affairs of the deceased, provides clarity for the family derived from the locker contents after passing, and improves loss mitigation for Medicare and Social Security.</p>
-                        <p className=" web-desc">Our nation is in need of an improved infrastructure, one which will support the country for future generations.  IvyNet’s software as a service platform provides innovative technology which reduces the bottom line in states’ unclaimed assets and brings to the commercial market value for every family and value for business in the IvyPartner Network; who will help shape this new frontier.</p>
                         
+                        {/* <ul className="text-muted list-unstyled margin-t-30 features-item-list">
+                            <li className="">We put a lot of effort in design.</li>
+                            <li className="">The most important ingredient of successful website.</li>
+                            <li className="">Sed ut perspiciatis unde omnis iste natus error sit.</li>
+                            <li className="">Submit Your Orgnization.</li>
+                        </ul> */}
+                        <a href="/about" className="btn btn-custom margin-t-30 waves-effect waves-light">More about us <i className="mdi mdi-arrow-right"></i></a>
                     </div>
                 </div>
                 {/* <div className="col-lg-7">
@@ -29,4 +33,4 @@ class Features extends React.Component {
   	);
   }
 }
-export default Features;
+export default AboutIntro;

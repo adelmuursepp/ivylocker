@@ -46,8 +46,8 @@ button {
 }
 
 p {
-    font-size: 14.4px;
-    line-height: 24px;
+    font-size: 1.1rem;
+    /* line-height: 24px; */
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Poppins', sans-serif;
@@ -146,7 +146,7 @@ b {
 }
 
 .bg-overlay {
-    /* background: linear-gradient(to right, #512DA8, #711e72); */
+    background: linear-gradient(to right, rgba(31, 30, 30, 0.8), rgba(51, 48, 48, 0.1));
     opacity: 0.9;
     position: absolute;
     height: 100%;
@@ -322,6 +322,14 @@ iframe {
     transition: all 0.5s ease-in-out;
 }
 
+.navbar-notransition {
+    padding: 20px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    background-color: #212529;
+}
+
 .sticky-wrapper {
     position: absolute;
     width: 100%;
@@ -341,9 +349,27 @@ iframe {
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar-notransition .navbar-brand {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar-custom .navbar-nav li a {
     color: rgba(255, 255, 255, 0.6);
-    font-size: 15px;
+    font-size: 1.1rem;
+    background-color: transparent !important;
+    padding: 15px 0;
+    margin: 0 10px;
+    transition: all 0.4s;
+}
+
+.navbar-notransition .navbar-nav li a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.1rem;
     background-color: transparent !important;
     padding: 15px 0;
     margin: 0 10px;
@@ -353,6 +379,12 @@ iframe {
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
+    color: #fff;
+}
+
+.navbar-notransition .navbar-nav li a:hover,
+.navbar-notransition .navbar-nav li a:focus,
+.navbar-notransition .navbar-nav li a:active {
     color: #fff;
 }
 
@@ -369,6 +401,15 @@ iframe {
     box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
 }
 
+.is-sticky .navbar-notransition {
+    margin-top: 0px;
+    padding: 10px 0px;
+    background-color: #272a33;
+    -moz-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+    box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+}
+
 .navbar-toggle {
     font-size: 24px;
     margin-top: 0px;
@@ -377,6 +418,11 @@ iframe {
 }
 
 .navbar-custom .btn-custom {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.navbar-notransition .btn-custom {
     margin-top: 4px;
     margin-bottom: 4px;
 }
@@ -700,8 +746,8 @@ iframe {
 
 .features-item-list li {
     position: relative;
-    line-height: 24px;
-    font-size: 15px;
+    /* line-height: 24px; */
+    font-size: 1.1rem;
     padding: 7px 0 7px 20px;
 }
 
@@ -1210,6 +1256,17 @@ textarea.form-control {
 	    max-height: 200px;
     	overflow-y: auto;
     }
+}
+
+/*=======================================
+          19.ABOUT 
+  =====================================*/
+
+  .bg-about {
+    background: url("../images/Estate-and-financial-planning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /*==================================

@@ -15,9 +15,9 @@ class Contact extends React.Component {
             <div className="row">
                 <div className="col-lg-4">
                     <div className="mt-4 pt-4">
-                        <p className="mt-4"><span className="h5">Office Address 1:</span><br /> <span className="text-muted d-block mt-2">4461 Cedar Street Moro, AR 72368</span></p>
-                        <p className="mt-4"><span className="h5">Office Address 2:</span><br /> <span className="text-muted d-block mt-2">2467 Swick Hill Street <br/>New Orleans, LA 70171</span></p>
-                        <p className="mt-4"><span className="h5">Working Hours:</span><br /> <span className="text-muted d-block mt-2">9:00AM To 6:00PM</span></p>
+                        <p className="mt-4"><span className="h5">Address</span><br /> <span className="text-muted d-block mt-2">IvyNet Corporation 1063 Quaker Hill Ct. Elgin, IL 60120</span></p>
+                        <p className="mt-4"><span className="h5">Phone:</span><br /> <span className="text-muted d-block mt-2">888.774 4894</span></p>
+                        <p className="mt-4"><span className="h5">Fax:</span><br /> <span className="text-muted d-block mt-2">630.830.3012</span></p>
                     </div>
                 </div>
                 <div className="col-lg-8">

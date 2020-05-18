@@ -5,7 +5,7 @@ import Features from './components/Features';
 import Descriptions from './components/Descriptions';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
-import Process from './components/Process';
+import Process from './components/SolutionsIntro';
 import Testi from './components/Testi';
 import Started from './components/Started';
 import Blog from './components/Blog';

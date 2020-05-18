@@ -1,9 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import ProductsComponent from './components/ProductsComponent';
+import IvyPartner from './components/IvyPartner';
+import IvyLocker from './components/IvyLocker';
 import Services from './components/ServicesComponent';
 import Features from './components/Features';
-import Process from './components/Process';
+import Process from './components/SolutionsIntro';
 import Contact from './components/Contact';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
@@ -40,17 +42,16 @@ class Products extends React.Component {
 
                 
 
-                {/* Descriptions Component*/}
-                {/* <Descriptions /> */}
+                {/* Productss Component*/}
+                <ProductsComponent />
 
-                {/* Pricing Component*/}
-                {/* <Pricing /> */}
+                {/* IvyPartner Component*/}
+                <IvyPartner />
 
-                {/* Team Component*/}
-                {/* <Team /> */}
+                {/* IvyLocker Component*/}
+                <IvyLocker /> 
 
-                {/* Process Component*/}
-                <Process />
+     
 
                 {/* Testi Component*/}
                 {/* <Testi /> */}

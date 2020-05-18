@@ -1,18 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomeOne from './HomeOne';
 import About from './About';
 import Products from './Products';
 import Services from './Services';
 import Solutions from './Solutions';
 import ContactUs from './ContactUs';
 import HomeThree from './HomeThree';
-import HomeFour from './HomeFour';
-import HomeFive from './HomeFive';
-import HomeSix from './HomeSix';
-import HomeSeven from './HomeSeven';
-import HomeEight from './HomeEight';
-import HomeNine from './HomeNine';
 import Login from './Login';
 import SignUp from './SignUp';
 import PasswordForget from './PasswordForget';
@@ -25,7 +18,6 @@ class Root extends React.Component {
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
 			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeThree}/>
-			  <Route path={`${process.env.PUBLIC_URL}/ivylocker`} component={HomeOne}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/about`} component={About}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/products`} component={Products}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/services`} component={Services}/> 

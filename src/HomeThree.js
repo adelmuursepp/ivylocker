@@ -4,10 +4,9 @@ import ProductsComponentIntro from './components/ProductsComponentIntro';
 import ServicesComponentIntro from './components/ServicesComponentIntro';
 import AboutIntro from './components/AboutIntro';
 import Descriptions from './components/Descriptions';
-import SolutionsIntro from './components/SolutionsIntro';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
-import Process from './components/Process';
+import SolutionsIntro from './components/SolutionsIntro';
 import Testi from './components/Testi';
 import Started from './components/Started';
 import Blog from './components/Blog';
@@ -67,8 +66,6 @@ class HomeThree extends React.Component {
                 {/* Team Component*/}
                 {/* <Team /> */}
 
-                {/* Process Component*/}
-                <Process />
 
                 {/* Testi Component*/}
                 {/* <Testi /> */}

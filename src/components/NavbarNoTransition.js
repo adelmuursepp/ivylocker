@@ -29,9 +29,10 @@ class NavbarNoTransition extends React.Component {
                         <li className="nav-item">
                             <a href="/solutions" className="nav-link">Solutions</a>
                         </li>
-                        <li className="nav-item">
+                        {/*Commented out because mailing service is not implemented */}
+                        {/* <li className="nav-item">
                             <a href="/contact" className="nav-link">Contact Us</a>
-                        </li>
+                        </li> */}
                     </ul>
                     {/* <div className="nav-button ml-auto">
                         <ul className="nav navbar-nav navbar-right">

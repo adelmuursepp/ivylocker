@@ -5,23 +5,26 @@ class Contact extends React.Component {
   	return (
         <section className="section" id="contact">
         <div className="container">
-            <div className="row">
+            {/* <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                     <h1 className="section-title text-center">Get In Touch</h1>
                     <div className="section-title-border margin-t-20"></div>
                     <p className="section-subtitle text-muted text-center font-secondary padding-t-30">We thrive when coming up with innovative ideas but also understand that a smart concept should be supported with measurable results.</p>
                 </div>
-            </div>
+            </div> */}
             <div className="row">
-                <div className="col-lg-4">
-                    <div className="mt-4 pt-4">
-                        <p className="mt-4"><span className="h5">Address</span><br /> <span className="text-muted d-block mt-2">IvyNet Corporation 1063 Quaker Hill Ct. Elgin, IL 60120</span></p>
-                        <p className="mt-4"><span className="h5">Phone:</span><br /> <span className="text-muted d-block mt-2">888.774 4894</span></p>
-                        <p className="mt-4"><span className="h5">Fax:</span><br /> <span className="text-muted d-block mt-2">630.830.3012</span></p>
-                    </div>
-                </div>
-                <div className="col-lg-8">
-                    <div className="custom-form mt-4 pt-4">
+                {/* <div className="col-lg-12"> */}
+                    {/* <div className="mt-4 pt-4 width-100%"> */}
+                        <div className="col-lg-6">
+                        <p className="mt-4 col-lg-6"><span className="h5">Address</span><br /> <span className="text-muted d-block mt-2">IvyNet Corporation 1063 Quaker Hill Ct. Elgin, IL 60120</span></p>
+                        </div>
+                        <div className="col-lg-6">
+                        <p className="mt-4 col-lg-6"><span className="h5">Phone:</span><br /> <span className="text-muted d-block mt-2">888.774 4894</span></p>
+                        </div>
+                    {/* </div> */}
+                {/* </div> */}
+                {/* <div className="col-lg-8"> */}
+                    {/* <div className="custom-form mt-4 pt-4">
                         <div id="message"></div>
                         <form method="post" action="home-one" name="contact-form" id="contact-form">
                             <div className="row">
@@ -57,8 +60,8 @@ class Contact extends React.Component {
                                 </div>
                             </div>
                         </form>
-                    </div>  
-                </div>
+                    </div>   */}
+                {/* </div> */}
             </div>
         </div>
     </section> 

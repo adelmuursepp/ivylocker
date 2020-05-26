@@ -461,6 +461,30 @@ iframe {
     background-position: center;
 }
 
+.bg-products {
+    background: url("../images/Families-living-globally.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.bg-services {
+    background: url("https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+}
+
+.bg-solutions {
+    background: url("https://cdn.pixabay.com/photo/2018/03/10/09/45/businessman-3213659_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+}
+
 .home-title {
     font-size: 46px;
     line-height: 64px;
@@ -509,6 +533,14 @@ iframe {
     font-size: 15px;
     max-width: 600px;
     margin: 0 auto;
+}
+
+#spacing-box {
+    height: 20rem;
+}
+
+#who-we-are-title {
+    height: 20rem;
 }
 
 /* ------------- Demo 1 bg-pattern ------------- */

@@ -5,7 +5,7 @@ import Products from './Products';
 import Services from './Services';
 import Solutions from './Solutions';
 import ContactUs from './ContactUs';
-import HomeThree from './HomeThree';
+import Home from './Home';
 import Login from './Login';
 import SignUp from './SignUp';
 import PasswordForget from './PasswordForget';
@@ -17,7 +17,7 @@ class Root extends React.Component {
   	return(
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
-			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeThree}/>
+			  <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
 			  <Route path={`${process.env.PUBLIC_URL}/about`} component={About}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/products`} component={Products}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/services`} component={Services}/> 

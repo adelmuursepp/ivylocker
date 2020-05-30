@@ -50,7 +50,7 @@ export default class extends React.Component {
                   type="textarea"
                   name="message"
                   onChange={this.handleChange}
-                  style={{height: '100%'}}/>
+                  style={{height: '100%' width: '400px'}}/>
               </FormGroup>
             <Button>Submit</Button>
           </Form>

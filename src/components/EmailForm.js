@@ -61,7 +61,7 @@ export default class extends React.Component {
           method={this.props.method}
           action={this.props.action}
         >
-          <row className="vertical-content d-flex justify-content-between">
+          <div className="vertical-content d-flex justify-content-between">
           <input
             id="name"
             name="name"
@@ -85,7 +85,7 @@ export default class extends React.Component {
             // style={{ width: "50%" }}
             rows={1}
           />
-          </row>
+          </div>
           <br />
           <textarea
             id="feedback"

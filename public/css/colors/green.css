@@ -38,6 +38,11 @@
 	background-color:#338a04 !important;
 }
 
+#contact-button {
+    background-color: #1b76bb !important;
+    border-color: #1b76bb !important;
+}
+
 
 .btn-custom:hover,
 .btn-custom:focus,

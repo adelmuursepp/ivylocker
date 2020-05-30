@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import NavbarNoTransition from './components/NavbarNoTransition';
 import ContactForm from './components/ContactForm';
+import ContactAdditonalInfo from './components/ContactAdditonalInfo';
 import EmailForm from './components/EmailForm';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
@@ -58,9 +59,8 @@ class ContactUs extends React.Component {
                 {/* Contact Component*/}
                 <EmailForm />
 
-                {/* SocialMedia Component*/}
-                <SocialMedia />
-                
+               <ContactAdditonalInfo/>
+==                
                 {/* Footer Component*/}
                 <Footer />
 

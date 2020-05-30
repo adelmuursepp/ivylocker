@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import AboutComponent from './components/AboutComponent';
-import Contact from './components/ContactBox';
+import ContactAdditionalInfo from './components/ContactAdditonalInfo';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import FooterLinks from './components/FooterLinks';
 import { Link } from 'react-router-dom';
 import Aux from './hoc/Aux_';
+
 
 class About extends React.Component {
   render() {
@@ -35,7 +36,9 @@ class About extends React.Component {
                 <AboutComponent />
 
                 {/* Contact Component*/}
-                <Contact />
+                {/* <Contact /> */}
+
+                {/* <ContactAdditionalInfo/> */}
 
                 {/* SocialMedia Component*/}
                 <SocialMedia />

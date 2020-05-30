@@ -8,7 +8,7 @@ import IvyLocker from './components/IvyLocker';
 import Services from './components/ServicesComponent';
 // import Features from './components/Features';
 import Process from './components/SolutionsIntro';
-import Contact from './components/ContactBox';
+// import Contact from './components/ContactBox';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import FooterLinks from './components/FooterLinks';
@@ -63,7 +63,7 @@ class Products extends React.Component {
                 {/* <Blog /> */}
 
                 {/* Contact Component*/}
-                <Contact />
+                {/* <Contact /> */}
 
                 {/* SocialMedia Component*/}
                 <SocialMedia />

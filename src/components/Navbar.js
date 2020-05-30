@@ -34,7 +34,7 @@ class Navbar extends React.Component {
                     <div className="nav-button ml-auto">
                         <ul className="nav navbar-nav navbar-right">
                             <li>
-                            <a href="/contact"><button type="button" className="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Contact Us</button></a>
+                            <a href="/contact"><button type="button" className="btn btn-custom navbar-btn btn-rounded waves-effect waves-light" id="contact-button">Contact Us</button></a>
                             </li>
                         </ul>
                     </div>

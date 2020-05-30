@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import ServicesComponent from './components/ServicesComponent';
 import Process from './components/SolutionsIntro';
-import Contact from './components/ContactBox';
+// import Contact from './components/ContactBox';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import FooterLinks from './components/FooterLinks';

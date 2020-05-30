@@ -16,7 +16,6 @@ class SocialMedia extends React.Component {
                     </div>
                     <div className="col-lg-3 margin-t-30 text-right"></div>
                     <div className="col-lg-3 margin-t-30 text-right">
-                        
                     </div>
                 </div>
             </div>

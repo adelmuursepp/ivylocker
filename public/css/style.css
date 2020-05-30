@@ -1295,10 +1295,11 @@ textarea.form-control {
   =====================================*/
 
   .bg-about {
-    background: url("../images/Estate-and-financial-planning.jpg");
+    background: url("../images/about-header.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 30rem;
 }
 
 /*==================================

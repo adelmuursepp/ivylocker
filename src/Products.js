@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import ProductsPageMain from './components/ProductsPageMain';
+import ProductsComponentIntro from './components/ProductsComponentIntro';
+
 import IvyPartner from './components/IvyPartner';
 import IvyLocker from './components/IvyLocker';
 import Services from './components/ServicesComponent';
@@ -37,10 +39,11 @@ class Products extends React.Component {
                     </div>
                </section>
 
-                
+               <ProductsComponentIntro />
 
                 {/* Productss Component*/}
                 <ProductsPageMain />
+
 
                 {/* IvyLocker Component*/}
                 <IvyLocker /> 

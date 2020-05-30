@@ -474,7 +474,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50rem;
+    height: 30rem;
 }
 
 .bg-solutions {
@@ -482,7 +482,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50rem;
+    height: 30rem;
 }
 
 .home-title {
@@ -1415,4 +1415,8 @@ ul.pattern .color8 {
     #style-switcher {
         display: none;
     }
+}
+
+.link-white {
+    color: white !important;
 }

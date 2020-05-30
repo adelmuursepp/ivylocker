@@ -16,7 +16,7 @@ class SocialMedia extends React.Component {
                     </div>
                     <div className="col-lg-3 margin-t-30 text-right"></div>
                     <div className="col-lg-3 margin-t-30 text-right">
-                        <p className="contact-title"><i className="pe-7s-mail-open"></i>&nbsp; inquiry@ivylocker.com</p>
+                        
                     </div>
                 </div>
             </div>

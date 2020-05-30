@@ -7,7 +7,7 @@ class NavbarNoTransition extends React.Component {
         <nav className="navbar navbar-expand-lg fixed-top navbar-notransition sticky sticky-dark">
             <div className="container">
                 <a className="navbar-brand logo text-uppercase" href="/">
-                    IvyNet
+                    <img src="images/brand-full-color.png" width="100px" className="img-fluid" alt="" />
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="mdi mdi-menu"></i>

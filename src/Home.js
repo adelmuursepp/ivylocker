@@ -31,9 +31,9 @@ class Home extends React.Component {
                                     <div className="col-lg-8 offset-lg-2 text-white text-center">
                                         <h1 className="home-title">There is one thing we all have in common</h1>
                                         <p className="plnoay-shadow margin-t-30 margin-l-r-auto">
-                                            <Link to="http://vimeo.com/99025203" className="play-btn video-play-icon">
+                                            <a href="https://www.vimeo.com/99025203" className="play-btn video-play-icon">
                                                 <i className="mdi mdi-play text-center"></i>
-                                            </Link>
+                                            </a>
                                         </p>  
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@ class Home extends React.Component {
 
                 {/* Section 2 */}
                 {/* Products Intro Component*/}
-                <ProductsComponentIntro />
+                
 
                 {/* Section 3 */}
                 {/* Solutions Intro Component*/}

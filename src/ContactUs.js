@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import NavbarNoTransition from './components/NavbarNoTransition';
 import ContactForm from './components/ContactForm';
+import EmailForm from './components/EmailForm';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
 import FooterLinks from './components/FooterLinks';
@@ -36,10 +37,10 @@ class ContactUs extends React.Component {
                     </div>
                </section>  */}
 
-
+               <div style={{height: '300px'}}></div>
 
                 {/* Contact Component*/}
-                <ContactForm />
+                <EmailForm />
 
                 {/* SocialMedia Component*/}
                 <SocialMedia />

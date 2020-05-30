@@ -19,7 +19,7 @@ class ProductsComponentIntro extends React.Component {
                             <a href="/products">
                             <i className="pe-7s-diamond text-custom"></i>
                             <h4 className="padding-t-15">IvyLocker®</h4></a>
-                            <p className="padding-t-15 text-muted">A suite of digital lockers for pre-planning all of your affairs, to documents, your memorial plans and with easy controls giving you control of your life after death </p>                        </div>
+                            <p className="padding-t-15 text-muted">A suite of digital lockers for pre-planning your estate and more </p>                        </div>
                     </div>
                     <div className="col-lg-3 margin-t-20">
                         <div className="services-box text-center hover-effect">
@@ -27,7 +27,7 @@ class ProductsComponentIntro extends React.Component {
                             <i className="pe-7s-expand1 text-custom"></i>
                             <h4 className="padding-t-15">IvyPartner</h4>
                             </a>
-                            <p className="padding-t-15 text-muted">Vital records shared to a Licensed Network on the Framework of the Integrated Vital  Information Exchange Hub, (I.V.I.E.Hub™)</p>
+                            <p className="padding-t-15 text-muted">Vital records shared to a Licensed Network through the Integrated Vital Information Exchange Hub (I.V.I.E.Hub™), more</p>
                         </div>
                     </div>
                     <div className="col-lg-3 margin-t-20">
@@ -36,7 +36,7 @@ class ProductsComponentIntro extends React.Component {
                             <i className="pe-7s-shield text-custom"></i>
                             <h4 className="padding-t-15">IvyProtect</h4>
                             </a>
-                            <p className="padding-t-15 text-muted">Credit Protection for Commercial Business lowering risk and loss caused by accounts remaining open indefinitely after death</p>
+                            <p className="padding-t-15 text-muted">Credit Protection for Commercial Business</p>
                         </div>
                     </div>
                     <div className="col-lg-3 margin-t-20">
@@ -45,7 +45,7 @@ class ProductsComponentIntro extends React.Component {
                             <i className="pe-7s-phone text-custom"></i>
                             <h4 className="padding-t-15">IvyWish</h4>
                             </a>
-                            <p className="padding-t-15 text-muted">Our mobile app providing video journaling, audio, text to a contact(s) in IvyLocker®</p>
+                            <p className="padding-t-15 text-muted">Our mobile app providing video journaling and more</p>
                         </div>
                     </div>
                 </div>

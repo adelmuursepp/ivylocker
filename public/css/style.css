@@ -314,7 +314,7 @@ iframe {
     padding: 20px 0px;
     width: 100%;
     border-radius: 0px;
-    z-index: 999;
+    z-index: 99900;
     margin-bottom: 0px;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -326,7 +326,7 @@ iframe {
     padding: 20px 0px;
     width: 100%;
     border-radius: 0px;
-    z-index: 999;
+    z-index: 99900;
     background-color: #212529;
 }
 

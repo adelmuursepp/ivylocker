@@ -7,11 +7,6 @@ class ProductsComponent extends React.Component {
         <section className="section pt-5" id="products">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-8 offset-lg-2">
-                        <h1 className="section-title text-center">Products</h1>
-                        <div className="section-title-border margin-t-20"></div>
-                        {/* <p className="section-subtitle text-muted text-center padding-t-30 font-secondary">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients.</p> */}
-                    </div>
                 </div>
                 <div className="row margin-t-30">
                     <div className="col-lg-3 margin-t-20">

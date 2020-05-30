@@ -3,11 +3,11 @@ import React from 'react';
 class IvyLocker extends React.Component {
   render() {
   	return (
-        <section className="section bg-light" id="network">
+        <section className="section bg-light pt-4" id="network">
             <div className="container">
                 <div className="row vertical-content">
                     <div className="col-lg-12">
-                        <div className="features-box">
+                        <div className="features-box mt-4">
                             <h1>IvyLocker®</h1>
                             <br/>
                             <p className=" web-desc">Our service, IvyLocker® is designed for any individual of legal age, irrespective of location. IvyLocker® provides for secure data lockers utilizing a template approach, combined with a technologically innovative rules engine to guide IvyLocker® members through the pre-planning process of providing detailed and relevant information needed during an emergency or even death.</p>

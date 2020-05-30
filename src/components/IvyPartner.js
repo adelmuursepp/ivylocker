@@ -3,11 +3,11 @@ import React from 'react';
 class IvyPartner extends React.Component {
   render() {
   	return (
-        <section className="section bg-light" id="network">
+        <section className="section bg-light pt-4" id="network">
             <div className="container">
                 <div className="row vertical-content">
                     <div className="col-lg-12">
-                        <div className="features-box">
+                        <div className="features-box mt-4">
                             <h1>Ivy Partner Network</h1>
                             <br/>
                             <p className=" web-desc">The Ivy Partner Network is an exclusive network of companies who provide services to the public at large.  What qualifies a company to be eligible for the network is whether as part of their normal business processes are aligned to a  need to know when an individual passes.  Any organization who requires a death certificate to end or begin their services for an individual.  For example at minimum the following organizations can substantially improve their operational efficiencies by receiving an approved notification of death from our proprietary notification services:</p>

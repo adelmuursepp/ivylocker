@@ -53,31 +53,31 @@ export default class extends React.Component {
 
   render() {
     return (
-      <div className="col-8 mx-auto">
+      <div className="col-8 mx-auto container">
         <form
-          className="ui form"
+          className="ui form section "
           id="contact-form"
           name={this.props.name}
           method={this.props.method}
           action={this.props.action}
         >
-          <row>
-          <textarea
+          <row className="vertical-content d-flex justify-content-between">
+          <input
             id="name"
             name="name"
             onChange={this.handleInputChange.bind(this)}
             placeholder="Your name"
-            className="form-control col-4"
+            className="form-control mr-3"
             required
             value={this.state.name}
             // style={{ width: "50%" }}
             rows={1}
           />
-          <textarea
+          <input
             id="email"
             name="email"
             onChange={this.handleInputChange.bind(this)}
-            className="form-control col-4"
+            className="form-control ml-3"
             placeholder="Your email address"
             required
             value={this.state.email}

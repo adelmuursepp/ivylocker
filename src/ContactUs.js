@@ -37,7 +37,23 @@ class ContactUs extends React.Component {
                     </div>
                </section>  */}
 
-               <div style={{height: '300px'}}></div>
+               <section className="section bg-light pt-4 h-25 d-inline-block w-100" id="services"></section>
+               <div>
+               <section className="section pt-4 pb-0" id="services">
+                    <div className="container">
+                        <div className="row vertical-content">
+                            <div className="col-lg-12 pt-4">
+                                <div className="features-box mb-4 pt-4 text-center">
+                                    <h1 className="pb-4 mx-auto">Get In Touch</h1>
+                                    <p className=" web-desc mx-auto">We invite you to contact us if interested in providing one of the products to employees, clients or to join the network.    </p>
+                                    <p className=" web-desc mx-auto">Contact us for a custom quote.   </p>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+               </div>
 
                 {/* Contact Component*/}
                 <EmailForm />

@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Features from './components/Features';
+import AboutComponent from './components/AboutComponent';
 import Contact from './components/ContactBox';
 import SocialMedia from './components/SocialMedia';
 import Footer from './components/Footer';
@@ -22,7 +22,7 @@ class About extends React.Component {
                         <div className="display-table-cell">
                             <div className="container">
                                 <div className="row">
-                                    <div className="col-lg-8 offset-lg-2 text-white text-left">
+                                    <div className="col-lg-8 offset-lg-2 text-white text-center">
                                         <h1 className="home-title">Who we are</h1>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@ class About extends React.Component {
                </section>
 
                 {/* Features Component*/}
-                <Features />
+                <AboutComponent />
 
                 {/* Contact Component*/}
                 <Contact />

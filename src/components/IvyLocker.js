@@ -20,7 +20,7 @@ class IvyLocker extends React.Component {
                             <p className=" web-desc">In addition the IvyLocker® portal will be compliant with privacy laws in handling sensitive data, encrypting data before submission and storage in a database repository.  This ensures the confidentiality of subscriber data from identity theft. Information which may be stored includes details of insurance policies, lock box and bank accounts. Secure data locker – IvyLocker® provides a suite of secure data storage locker each for a specific area of a person’s life.</p>
                             <br/>
                             <br/>
-                            <bold>The IvyLocker® service is for:</bold>
+                            <h3>The IvyLocker® service is for:</h3>
                             <ul className="text-muted list-unstyled margin-t-30 features-item-list">
                                 <li className="">Singles – with families in other cities</li>
                                 <li className="">Seniors – with families in other cities</li>

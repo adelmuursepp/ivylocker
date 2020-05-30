@@ -16,7 +16,7 @@ class Contact extends React.Component {
                 {/* <div className="col-lg-12"> */}
                     {/* <div className="mt-4 pt-4 width-100%"> */}
                         <div className="col-lg-6">
-                        <p className="mt-4 col-lg-6"><span className="h5">Address</span><br /> <span className="text-muted d-block mt-2">IvyNet Corporation 1063 Quaker Hill Ct. Elgin, IL 60120</span></p>
+                        <p className="mt-4 col-lg-6"><span className="h5"> Office Address:</span><br /> <span className="text-muted d-block mt-2">IvyNet Corporation 1063 Quaker Hill Ct. Elgin, IL 60120</span></p>
                         </div>
                         <div className="col-lg-6">
                         <p className="mt-4 col-lg-6"><span className="h5">Phone:</span><br /> <span className="text-muted d-block mt-2">888.774 4894</span></p>

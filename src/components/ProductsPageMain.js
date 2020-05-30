@@ -1,18 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-class ServicesComponentIntro extends React.Component {
+class ProductsPageMain extends React.Component {
   render() {
   	return (
-        <section className="section bg-light" id="services">
+        <section className="section bg-light" id="network">
             <div className="container">
                 <div className="row vertical-content">
                     <div className="col-lg-12">
                         <div className="features-box">
-                            <h3>Services</h3>
-                            <p className=" web-desc">Our service is a software deployment model in an enterprise application which is delivered and managed as a service to customers simultaneously.</p>
-                            <a href="/services" className="btn btn-custom margin-t-30 waves-effect waves-light">Read more <i className="mdi mdi-arrow-right"></i></a>
-
+                            
+                            
+                            <p className=" web-desc">The products of IvyNet have a common goal.   To help people.  In order to help people we must shore up and support the businesses that also help people. Each of our products provides for, covers the gap, by reducing it, and mitigates loss and risk for companies who currently are exposed..</p>
+                        
+                        
                         </div>
                     </div>
                     {/* <div className="col-lg-7">
@@ -26,4 +26,4 @@ class ServicesComponentIntro extends React.Component {
   	);
   }
 }
-export default ServicesComponentIntro;
+export default ProductsPageMain;

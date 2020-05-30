@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import ProductsComponent from './components/ProductsComponent';
+import ProductsPageMain from './components/ProductsPageMain';
 import IvyPartner from './components/IvyPartner';
 import IvyLocker from './components/IvyLocker';
 import Services from './components/ServicesComponent';
-import Features from './components/Features';
+// import Features from './components/Features';
 import Process from './components/SolutionsIntro';
 import Contact from './components/ContactBox';
 import SocialMedia from './components/SocialMedia';
@@ -40,13 +40,13 @@ class Products extends React.Component {
                 
 
                 {/* Productss Component*/}
-                <ProductsComponent />
-
-                {/* IvyPartner Component*/}
-                <IvyPartner />
+                <ProductsPageMain />
 
                 {/* IvyLocker Component*/}
                 <IvyLocker /> 
+
+                {/* IvyPartner Component*/}
+                <IvyPartner />
 
      
 

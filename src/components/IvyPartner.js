@@ -29,7 +29,26 @@ class IvyPartner extends React.Component {
                             <p className=" web-desc">This unique service is not available through any other commercial source.  </p>
                             <p className=" web-desc">Additionally, Partners who join the license network will contribute to technological advances in innovative standards surrounding this unique but needed business function.</p>
                             <p className=" web-desc">This process also provides assurance to customers of any Ivy Partner Network provider that their families will not miss out on benefits or become victims of identity theft.</p>
-                        
+                            <br/>
+                            <p className=" web-desc">Here’s a snapshot of how this service will benefit your company:</p>
+                            <p className=" web-desc">IvyLocker® following the wishes of the subscriber will extract and execute notifications to the providers shown above.  Each locker above represents subscribers.   </p>
+                            <p className=" web-desc">Now, because of IvyNet’s proprietary system, business and families have greater control. </p>
+                            <br/>
+                            <h3 className=" web-desc">Our value to Partners: </h3>
+                            <ul className="text-muted list-unstyled margin-t-30 features-item-list">
+                                <li className="">Reduce your operational costs.  70M+ baby boomers will impact your organization</li>
+                                <li className="">Improve and regain lost public trust in your services to them – send the message that you want to help families not just take their money</li>
+                                <li className="">Reduce the impact of fraud and identity theft to your bottom line</li>
+                            </ul>
+                            <br/>
+                            <h3 className=" web-desc">Our value to millions of families:   </h3>
+                            <ul className="text-muted list-unstyled margin-t-30 features-item-list">
+                                <li className="">Shut down the credit – eliminating access use of social security numbers by fraud perpetrators. </li>
+                                <li className="">No more premiums paid for none thing – in the end the family never collecting because they didn’t know.</li>
+                                <li className="">Providing families with greater control over their affairs</li>
+                            </ul>
+                            <p className=" web-desc">Contact us TODAY to discuss becoming a partner of this valuable network!  </p>
+
                         </div>
                     </div>
                     {/* <div className="col-lg-7">

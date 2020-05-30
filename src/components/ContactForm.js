@@ -29,27 +29,28 @@ export default class extends React.Component {
 
   render() {
       return (
-          <Form style={{width: '100px'}}>
-              <FormGroup>
+          <Form style={{width: '100%', height: '700px'}}>
+              <FormGroup style={{width: '100%'}}>
                   <Label for="name">Name:</Label>
                   <Input
                   type="text"
                   name="name"
                   onChange={this.handleChange}/>
               </FormGroup>
-              <FormGroup>
+              <FormGroup style={{width: '100%'}}>
                   <Label for="email">Email:</Label>
                   <Input
                   type="email"
                   name="email"
                   onChange={this.handleChange}/>
               </FormGroup>
-              <FormGroup>
+              <FormGroup style={{width: '100%'}}>
                   <Label for="message">Name:</Label>
                   <Input
                   type="textarea"
                   name="message"
-                  onChange={this.handleChange}/>
+                  onChange={this.handleChange}
+                  style={{height: '100%'}}/>
               </FormGroup>
             <Button>Submit</Button>
           </Form>

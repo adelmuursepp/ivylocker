@@ -30,10 +30,10 @@ class Home extends React.Component {
                                 <div className="row">
                                     <div className="col-lg-8 offset-lg-2 text-white text-center">
                                         <h1 className="home-title">There is one thing we all have in common</h1>
-                                        <p className="plnoay-shadow margin-t-30 margin-l-r-auto">
-                                            <a href="https://www.vimeo.com/99025203" className="play-btn video-play-icon">
+                                        <p className="play-shadow margin-t-30 margin-l-r-auto">
+                                            <Link to="https://www.youtube.com/watch?v=GtKrl8OvEVY" className="play-btn video-play-icon">
                                                 <i className="mdi mdi-play text-center"></i>
-                                            </a>
+                                            </Link>
                                         </p>  
                                     </div>
                                 </div>

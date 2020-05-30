@@ -1,9 +1,5 @@
-/* Theme Name: Dorsin - Responsive Landing page template
-   Author: Themesbrand
-   Version: 1.0.0
-   Created: July 2018
-   File Description: Main JS file of the template
-*/
+
+
 (function ($) {
 
     'use strict';

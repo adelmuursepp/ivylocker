@@ -30,7 +30,7 @@ class Products extends React.Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-8 offset-lg-2 text-white text-center">
-                                        <h1 className="home-title">Products</h1>
+                                        <h1 className="home-title">IvyPartner</h1>
                                         
                                     </div>
                                 </div>
@@ -39,18 +39,9 @@ class Products extends React.Component {
                     </div>
                </section>
 
-               <ProductsPageMain />
-
-
-               <ProductsComponentIntro />
-
-
-
-                {/* IvyLocker Component*/}
-                {/* <IvyLocker />  */}
 
                 {/* IvyPartner Component*/}
-                {/* <IvyPartner /> */}
+                <IvyPartner />
 
      
 

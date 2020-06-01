@@ -15,14 +15,14 @@ class ProductsComponentIntro extends React.Component {
                 <div className="row margin-t-30">
                     <div className="col-lg-3 margin-t-20">
                         <div className="services-box text-center hover-effect">
-                            <a href="/products">
+                            <a href="/ivylocker">
                             <i className="pe-7s-diamond text-custom"></i>
                             <h4 className="padding-t-15">IvyLocker®</h4></a>
                             <p className="padding-t-15 text-muted">A suite of digital lockers for pre-planning your estate and more </p>                        </div>
                     </div>
                     <div className="col-lg-3 margin-t-20">
                         <div className="services-box text-center hover-effect">
-                            <a href="/products">
+                            <a href="/ivypartner">
                             <i className="pe-7s-expand1 text-custom"></i>
                             <h4 className="padding-t-15">IvyPartner</h4>
                             </a>

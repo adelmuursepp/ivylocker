@@ -23,14 +23,14 @@ class Products extends React.Component {
                 {/* Navbar Component*/}
                 <Navbar />
 
-                <section className="section bg-products" id="home">
+                <section className="section bg-ivylocker" id="home">
                     <div className="bg-overlay"></div>
                     <div className="display-table">
                         <div className="display-table-cell">
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-8 offset-lg-2 text-white text-center">
-                                        <h1 className="home-title">Products</h1>
+                                        <h1 className="home-title">IvyLocker</h1>
                                         
                                     </div>
                                 </div>
@@ -39,18 +39,12 @@ class Products extends React.Component {
                     </div>
                </section>
 
-               <ProductsPageMain />
-
-
-               <ProductsComponentIntro />
 
 
 
                 {/* IvyLocker Component*/}
-                {/* <IvyLocker />  */}
+                <IvyLocker /> 
 
-                {/* IvyPartner Component*/}
-                {/* <IvyPartner /> */}
 
      
 

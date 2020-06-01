@@ -6,6 +6,8 @@ import Services from './Services';
 import Solutions from './Solutions';
 import ContactUs from './ContactUs';
 import Home from './Home';
+import IvyLockerPage from './IvyLockerPage';
+import IvyPartnerPage from './IvyPartnerPage';
 import Login from './Login';
 import SignUp from './SignUp';
 import PasswordForget from './PasswordForget';
@@ -23,6 +25,8 @@ class Root extends React.Component {
 			  <Route path={`${process.env.PUBLIC_URL}/services`} component={Services}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/solutions`} component={Solutions}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/contact`} component={ContactUs}/> 
+			  <Route path={`${process.env.PUBLIC_URL}/ivylocker`} component={IvyLockerPage}/> 
+			  <Route path={`${process.env.PUBLIC_URL}/ivypartner`} component={IvyPartnerPage}/> 
 			  <Route path={`${process.env.PUBLIC_URL}/login`} component={Login}/>    
 			  <Route path={`${process.env.PUBLIC_URL}/password-forget`} component={PasswordForget}/>  
 			  <Route path={`${process.env.PUBLIC_URL}/sign-up`} component={SignUp}/>  

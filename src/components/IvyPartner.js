@@ -47,7 +47,7 @@ class IvyPartner extends React.Component {
                                 <li className="">No more premiums paid for none thing – in the end the family never collecting because they didn’t know.</li>
                                 <li className="">Providing families with greater control over their affairs</li>
                             </ul>
-                            <p className=" web-desc">Contact us <Link to={"mailto:" + "support@ivylocker.com"}>TODAY</a> to discuss becoming a partner of this valuable network!  </Link>
+                            <p className=" web-desc">Contact us <Link to={"mailto:" + "support@ivylocker.com"}>TODAY</Link> to discuss becoming a partner of this valuable network!  </Link>
 
                         </div>
                     </div>

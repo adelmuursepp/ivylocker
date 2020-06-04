@@ -8,7 +8,7 @@ class Navbar extends React.Component {
             <div className="container">
                 <Link className="navbar-brand logo text-uppercase" to="/">
                     <img src="images/brand-full-color.png" width="100px" className="img-fluid" alt="" />
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="mdi mdi-menu"></i>
                 </button>

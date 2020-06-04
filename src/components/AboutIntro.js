@@ -29,7 +29,7 @@ class AboutIntro extends React.Component {
                                 <li className="">Sed ut perspiciatis unde omnis iste natus error sit.</li>
                                 <li className="">Submit Your Orgnization.</li>
                             </ul> */}
-                            <a href="/about" className="btn btn-custom margin-t-30 waves-effect waves-light">More about us <i className="mdi mdi-arrow-right"></i></a>
+                            <Link to="/about" className="btn btn-custom margin-t-30 waves-effect waves-light">More about us <i className="mdi mdi-arrow-right"></i></Link>
                         </div>
                     </div>
                 </div>

@@ -6,32 +6,32 @@ class NavbarNoTransition extends React.Component {
   	return (
         <nav className="navbar navbar-expand-lg fixed-top navbar-notransition sticky sticky-dark">
             <div className="container">
-                <a className="navbar-brand logo text-uppercase" href="/">
+                <Link className="navbar-brand logo text-uppercase" to="/">
                     <img src="images/brand-full-color.png" width="100px" className="img-fluid" alt="" />
-                </a>
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="mdi mdi-menu"></i>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav navbar-center" id="mySidenav">
                         <li className="nav-item active">
-                            <a href="/" className="nav-link">Home</a>
+                            <Link to="/" className="nav-link">Home</Link>
                         </li>
                         <li className="nav-item active">
-                            <a href="/about" className="nav-link">Who we are</a>
+                            <Link to="/about" className="nav-link">Who we are</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="/products" className="nav-link">Products</a>
+                            <Link to="/products" className="nav-link">Products</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="/services" className="nav-link">Services</a>
+                            <Link to="/services" className="nav-link">Services</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="/solutions" className="nav-link">Solutions</a>
+                            <Link to="/solutions" className="nav-link">Solutions</Link>
                         </li>
                         {/*Commented out because mailing service is not implemented */}
                         {/* <li className="nav-item">
-                            <a href="/contact" className="nav-link">Contact Us</a>
+                            <Link to="/contact" className="nav-link">Contact Us</Link>
                         </li> */}
                     </ul>
                     {/* <div className="nav-button ml-auto">

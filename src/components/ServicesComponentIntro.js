@@ -11,7 +11,7 @@ class ServicesComponentIntro extends React.Component {
                         <div className="features-box">
                             <h3>Services</h3>
                             <p className=" web-desc">Our service is a software deployment model in an enterprise application which is delivered and managed as a service to customers simultaneously.</p>
-                            <a href="/services" className="btn btn-custom margin-t-30 waves-effect waves-light">Read more <i className="mdi mdi-arrow-right"></i></a>
+                            <Link to="/services" className="btn btn-custom margin-t-30 waves-effect waves-light">Read more <i className="mdi mdi-arrow-right"></i></Link>
 
                         </div>
                     </div>

@@ -10,11 +10,11 @@ class SolutionsIntro extends React.Component {
                 <div className="col-lg-12">
                     <div className="features-box">
                         <h3>Solutions</h3>
-                        <p className=" web-desc">If you’re a consumer our solution will save your family countless hours of administrative headaches by sending notifications you pre-select; so they don’t have to.  See our <a href="https://www.ivylocker.com">IvyLocker® Product.</a></p>
+                        <p className=" web-desc">If you’re a consumer our solution will save your family countless hours of administrative headaches by sending notifications you pre-select; so they don’t have to.  See our <Link to="https://www.ivylocker.com">IvyLocker® Product.</Link></p>
                         <p className=" web-desc">If you’re a provider of Insurance, Pension or other financial companies, our solution will reduce your liability, lower business overhead costs and increase sales.  </p>
                 
 
-                        <a href="/solutions" className="btn btn-custom margin-t-30 waves-effect waves-light">Get started here <i className="mdi mdi-arrow-right"></i></a>
+                        <aLink to="/solutions" className="btn btn-custom margin-t-30 waves-effect waves-light">Get started here <i className="mdi mdi-arrow-right"></i></Link>
                     </div>
                 </div>
                 {/* <div className="col-lg-7">

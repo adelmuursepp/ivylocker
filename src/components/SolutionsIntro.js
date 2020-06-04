@@ -14,7 +14,7 @@ class SolutionsIntro extends React.Component {
                         <p className=" web-desc">If you’re a provider of Insurance, Pension or other financial companies, our solution will reduce your liability, lower business overhead costs and increase sales.  </p>
                 
 
-                        <aLink to="/solutions" className="btn btn-custom margin-t-30 waves-effect waves-light">Get started here <i className="mdi mdi-arrow-right"></i></Link>
+                        <Link to="/solutions" className="btn btn-custom margin-t-30 waves-effect waves-light">Get started here <i className="mdi mdi-arrow-right"></i></Link>
                     </div>
                 </div>
                 {/* <div className="col-lg-7">

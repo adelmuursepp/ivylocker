@@ -61,23 +61,12 @@ export default class extends React.Component {
           method={this.props.method}
           action={this.props.action}
         >
-          <div className="vertical-content d-flex justify-content-between">
-          <input
-            id="name"
-            name="name"
-            onChange={this.handleInputChange.bind(this)}
-            placeholder="Your name"
-            className="form-control mr-3"
-            required
-            value={this.state.name}
-            // style={{ width: "50%" }}
-            rows={1}
-          />
+          <div className="vertical-content d-flex">
           <input
             id="email"
             name="email"
             onChange={this.handleInputChange.bind(this)}
-            className="form-control ml-3"
+            className="form-control "
             placeholder="Your email address"
             required
             value={this.state.email}

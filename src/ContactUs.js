@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import NavbarNoTransition from './components/NavbarNoTransition';
-import ContactForm from './components/ContactForm';
+
 import ContactAdditonalInfo from './components/ContactAdditonalInfo';
 import EmailForm from './components/EmailForm';
 import SocialMedia from './components/SocialMedia';
